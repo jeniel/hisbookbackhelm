@@ -8,6 +8,6 @@ image:
   tag: defd520-prod
 
 host:
-  name: hisbookback.bata.local
-
+#  name: hisbookback.bata.local
+   name: back.192.168.254.160.nip.io
 onPrem: true

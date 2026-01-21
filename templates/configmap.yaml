@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-configmap
+  namespace: {{ .Values.namespace }}
+data:
+  DATABASE_URL: "postgresql://postgres:1234@localhost:5432/acebookv2"
+  JWT_SECRET: "ec20x52x2xd4c5xbd7378bde"
+  JWT_REFRESH_TOKEN: "asddasd12352224cx5bd73"
+  TOKEN_NAME: "123124124124124124124"
+  OPENAI_API_KEY: "123123123123123123123123"
+  QDRANT_URL: "https://qdrant.acemcbohol.dev"
+  QDRANT_API_KEY: "e3d5f4104d8d76394d142fbffb9d91a0e7f9a73b"
+  QDRANT_TIMEOUT: "30000"
+  QDRANT_MAX_RETRIES: "3"

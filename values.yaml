@@ -4,8 +4,8 @@ replicaCount: 1
 namespace: hisbook-back
 
 image:
-  name: jeniel/hisbook-back
-  tag: defd520-backend
+  name: acemcbmis/hisbook-back
+  tag:  75b212f-prod
 
 host:
 #  name: hisbookback.bata.local

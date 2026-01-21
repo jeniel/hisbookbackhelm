@@ -5,7 +5,7 @@ namespace: hisbook-back
 
 image:
   name: jeniel/hisbook-back
-  tag: defd520-prod
+  tag: defd520-backend
 
 host:
 #  name: hisbookback.bata.local
